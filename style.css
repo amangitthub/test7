@@ -1,0 +1,971 @@
+*{
+ box-sizing: border-box;
+ }
+
+p{
+	font-family: arial;
+}
+
+
+body{
+  overflow-x: hidden; 
+  overflow-y: scroll; 
+	margin-top: 0;
+}
+
+/*header classes*/
+.section-silder{
+	background-repeat: no-repeat;
+	margin-left: -25%;
+}
+
+.business-logo{
+	margin-top: 12%;
+	margin-left: 80%;
+}
+
+/*navbar classes*/
+.new{
+	font-size: 10.5px;
+  z-index: 1;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom right;
+  margin-left: 35%;
+  border-bottom: 5px solid  #f94d1c;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+
+.nav-t:hover{
+	cursor: pointer;
+  color: #f94d1c;
+  }
+
+ .sar:hover{
+ 	cursor: pointer;
+ 	color: #f94d1c;
+ }
+
+.hh{
+	color: #f94d1c;
+}
+
+.hh-line{
+border-bottom: 5px solid #f94d1c;
+padding: 20px;
+margin-left: -50px;
+}
+
+/*silder section classes*/
+.section-silder-2{
+	margin-top: -48%;
+}
+
+.first-slide{
+	margin-top: -30rem;
+	margin-left: 25rem;
+}
+
+.slide{
+ margin-top: -5%;
+}
+
+.second-slide{
+	margin-left: -128rem;
+}
+
+.third-slide{
+	margin-left: -200rem;
+}
+
+.const{
+   margin-top: -20rem;
+}
+
+.play{
+	background: #222;
+}
+
+.play:hover{
+ background: #f94d1c;
+}
+
+.phone-icon{
+	color: f94d1c;
+}
+
+.numbar-div{
+	border: 1px solid #f94d1c;
+}
+
+.ensure{
+margin-left: 4%;
+ width: 45%;
+ height: 450;
+ background: #fff;
+ opacity: 0.9;
+ border-left: 8px solid #f94d1c;
+}
+
+.ensure-2{
+margin-left: -60rem;
+ width: 45%;
+ height: 450;
+ background: #fff;
+ opacity: 0.9;
+ border-left: 8px solid #f94d1c;
+}
+
+.ensure-3{
+margin-left: -145rem;
+ width: 45%;
+ height: 450;
+ background: #fff;
+ opacity: 0.9;
+ border-left: 8px solid #f94d1c;
+}
+
+
+.const-img{
+	margin-left: 68rem;
+}
+
+.slid-phn{
+	margin-top: 13rem;
+}
+
+
+.mk{
+	z-index: 1;
+	display: block;
+}
+
+.const-theme-2{
+	margin-left: -85rem;
+}
+
+.const-theme-3{
+	margin-left: -168rem;
+}
+
+
+
+
+.view-button{
+	background: #f94d1c;
+   color: #fff;
+}
+
+
+.view-button:hover{
+	background: #222;
+   color: #fff;
+}
+
+/*cover section classes*/
+.cover-section{
+	margin-top: -5%;
+}
+
+.set{
+	background: #f94d1c;
+	margin-top: 13.5rem;
+	margin-left: -5rem;
+}
+
+.first-cover:hover .set{
+ margin-top: -20px;
+}
+
+.fast{
+	position: relative;
+ margin-left: 18rem;
+ margin-top: -18.7rem;
+ display: none;
+ border: 5px solid #fff;
+ border-left: none;
+}
+
+.co{
+	border: 5px solid #fff;
+	border-right: none;
+}
+
+
+.first-cover{
+	border: 5px solid #fff;
+	border: transparent;
+	height: 300;
+}
+
+.first-cover:hover .fast{
+	display: block;
+}
+
+/*We are the best agency to improve your deals classes.*/
+.loan{
+	transition: 1s ease-in-out;
+	margin-top: -0%;
+	position: absolute;
+}
+
+.loan:hover{
+	transform: scale(1.1);
+}
+
+.about{
+	margin-left: 35%;
+	opacity: 0.2;
+	font-family: bill-smith;
+}
+
+
+.skills-bar .bar .progress-line {
+  position: relative;
+  height: 10px;
+  width: 550px;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.bar .progress-line span {
+  position: absolute;
+  background: #f94d1c;
+  height: 100%;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.progress-line .html {
+  width: 70%;
+}
+.progress-line .css {
+  width: 90%;
+}
+
+.bar .progress-line span::before {
+  position: absolute;
+  content: "";
+  height: 0;
+  right: 0;
+  top: -14px;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+}
+
+.outer-line{
+	border: 1px solid #f94d1c;
+	width: 70%;
+}
+
+.percent{
+	margin-left: 43%;
+}
+
+/*We are giving the best services for you classes*/
+.best-services{
+	background-image: url(images/bg-section-01.jpg);
+	height: 800;
+}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: none;
+  background-color: none;
+  width: 40%;
+  height: 300px;
+ margin-left: 10%;
+}
+
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: #000;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+  color: #fff;
+}
+
+.pln{
+	margin-top: 2rem;
+}
+
+/* Change background color of buttons on hover */
+/*.tab button:hover {*/
+/* margin-left: 50px;*/
+/*}*/
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+	margin-left: 50px;
+  background-color: #fff;
+  color: #000;
+  position: relative;
+}
+
+.tab button.active .desk {
+  background-color: #f94d1c;
+  color: #fff;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+/*  padding: 0px 12px;*/
+/*  border: 1px solid #ccc;*/
+/*  width: 70%;*/
+  border-left: none;
+/*  height: 300px;*/
+}
+  
+
+.we{
+	margin-left: 25%;
+}
+
+.desk{
+	background: #222;
+	height: 100px;
+	width: 150;
+	color: #f94d1c;
+}
+
+
+.save{
+	font-family: kalam;
+}
+
+.tab-1{
+	width: 29%;
+	border-top: 5px solid #f94d1c;
+	margin-left: 5%;
+}
+
+.about-2{
+	margin-top: 30px;
+	margin-left: -50px;
+	opacity: 0.2;
+	font-family: bill-smith;
+}
+
+/*We are giving the best services for you classes end*/
+
+/*Satisfied Clients Clients classes*/
+.user{
+	border-left: 2px dashed #868e96;
+}
+
+.use{
+	position: relative;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.use:hover{
+	transform: rotateY(180deg);
+	color: #fff;
+  filter: invert(30%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(2);
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+}
+
+.plus{
+	color: #f94d1c;
+}
+
+/*Satisfied Clients clasesse end*/
+/*We always work with a great team classes start*/
+.share{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 50px;
+	border-radius: 5px;
+	background: #f94d1c;
+	margin-top: -23%;
+	margin-left: 80%;
+  color: #fff;
+}
+
+.about-4{
+	margin-left: 35%;
+	opacity: 0.2;
+	font-family: bill-smith;
+}
+
+
+.lst{
+	height: 400;
+}
+
+.latio{
+	height: 320px;
+	width: 280px;
+}
+
+.ics{
+	margin-top: -12rem;
+	margin-left: 12.5rem;
+	background: #f94d1c;
+ display: none;
+}
+
+
+
+.latio:hover .ics{
+	display: block;
+}
+
+.latio:hover{
+  cursor: pointer;
+	transition: 0.5s;
+  background: #000;
+  color: #fff;
+}
+
+.latio:hover .share{
+	background: #000;
+	color: #f94d1c;
+}
+
+.latio:hover .lg{
+	transform: scale(1.1);
+	margin-top: -15%;
+	width: 20px;
+}
+/*We always work with a great team classes end*/
+/*We have many clients world wide! classes start*/
+.bg-contact{
+	margin-top: -8%;
+	filter: brightness(50%);
+}
+
+.eight{
+	margin-top: -30%;
+	margin-left: 15%;
+}
+
+.googles{
+	margin-top: -13%;
+	margin-left: 50%;
+}
+
+
+.small-div{
+	margin-top: -10%;
+	margin-left: 60%;
+}
+
+.main-line{
+	margin-top: 2rem;
+	width: 30rem;
+}
+
+.studies{
+	background: #fdb325;
+}
+
+
+.studies:hover{
+	background: #f94d1c;
+	color: #fff;
+}
+
+.black-div{
+	width: 10rem;
+	margin-top: -4.3rem;
+	margin-left: 27.7rem;
+}
+
+.us{
+	transition: 0.5s;
+}
+
+.us:hover{
+	transform: scale(1.1);
+}
+
+
+
+/*We have many clients world wide! classes end*/
+
+/*Tell us about what you want to learn! classes*/
+   .tell{
+   	background-image: url(images/bg-get-quote.png);
+   	height: 900;
+   	opacity: 1;
+   }
+
+  .black-section{
+  	margin-top: 23rem;
+  	background: #000;
+  	margin-left: 8%;
+    width: 85%;
+    height: 20%;
+    background-image: url(images/bg-get-quote.png);
+  }
+
+  .email-like{
+  	outline: none;
+  	margin-left: 60%;
+   width: 25%;
+   color: #fff;
+  }
+
+.click-btn {
+  display: flex;
+  width: button-width;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+  text-decoration: none;
+  transition: all 0.35s;
+  box-sizing: border-box;
+}
+
+.buttons-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+ margin-top: -4%;
+ margin-left: 85%; 
+}
+
+
+ .btn-style510 {
+  background: #f95d1c;
+  btn-hover-color: #dd6395;
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+  &::before,
+  &::after {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-100px) skewX(-15deg);
+    content: "";
+  }
+  &::before {
+    width: 60px;
+    background: rgba(255, 255, 255, 0.5);
+    filter: blur(30px);
+    opacity: 0.5;
+  }
+  &::after {
+    width: 30px;
+    left: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    filter: blur(5px);
+  }
+  &:hover {
+    background-color: btn-hover-color;
+    border-color: btn-hover-color;
+    &::before {
+      opacity: 1;
+    }
+    &::before,
+    &::after {
+      transform: translateX(300px) skewX(-15deg);
+      transition: all 0.9s ease;
+    }
+  }
+}
+ 
+/*Tell us about what you want to learn! classes end*/
+
+/*get clientâ€™s review! classes start*/
+  .rio{
+  	height: 350;
+  }
+
+  .testi{
+  	margin-top: -7rem;
+  	
+  }
+
+   .testi-2{
+  	margin-top: -4rem;
+  }
+
+ .testi-3{
+  	margin-top: -3.7rem;
+  }
+
+ .pra-testi{
+ 	margin-left: -5rem;
+ }
+  
+.agent{
+	margin-left: -5rem;
+}
+
+.star{
+	margin-top: 10px;
+	margin-left: 13rem;
+   color: #f94d1c;
+}
+
+.quote-icon{
+	background: #f94d1c;
+}
+
+.quote{
+	margin-top: -4rem;
+	margin-left: 2.5rem;
+	position: absolute;
+}
+
+.about-3{
+	margin-top: -10px;
+	margin-left: -50px;
+	opacity: 0.2;
+	font-family: bill-smith;
+}
+
+.first-card{
+	border: 5px solid #fff;
+}
+
+
+.three-card{
+ 	border: 5px solid #fff;
+  width: 23rem;
+}
+
+
+.three-card:hover{background: #222;
+	color: #fff;
+	padding: 10px;
+	background-image: url(images/bg-get-quote.png);
+}
+
+
+.first-card:hover{
+	background: #222;
+	color: #fff;
+	padding: 10px;
+	background-image: url(images/bg-get-quote.png);
+}
+/*get clientâ€™s review! classes end*/
+/*You can request for call back, we will call classes!*/
+ .will-pra{
+ 	margin-left: 16rem;
+ }
+
+ .team{
+ 	margin-top: -20%;
+ 	background-image: url(images/bg-team1.jpg);
+ 	height: 700;
+    margin-left: -20%;
+ }
+
+.rapper{
+	margin-left: 27.5rem;
+}
+
+ .request:hover{
+ background: #222;
+
+ }
+/*You can request for call back, we will call classes end!*/
+
+/*Weâ€™re here to share story & more news classes*/
+.text{
+	background: #eee8e4;
+	font-size: 12px;
+}
+
+.nov{
+	width: 65px;
+	line-height: 25px;
+	background: #f94d1c;
+}
+
+.click-btn-2:hover{
+ background: #f95d1c;
+}
+
+.click-btn-2{
+  display: flex;
+  width: button-width;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+  text-decoration: none;
+  transition: all 0.35s;
+  box-sizing: border-box;
+}
+
+ .btn-style511 {
+  background: #000;
+  btn-hover-color: #dd6395;
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+  &::before,
+  &::after {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-100px) skewX(-15deg);
+    content: "";
+  }
+  &::before {
+    width: 60px;
+    background: rgba(255, 255, 255, 0.5);
+    filter: blur(30px);
+    opacity: 0.5;
+  }
+  &::after {
+    width: 30px;
+    left: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    filter: blur(5px);
+  }
+  &:hover {
+    background-color: btn-hover-color;
+    border-color: btn-hover-color;
+    &::before {
+      opacity: 1;
+    }
+    &::before,
+    &::after {
+      transform: translateX(300px) skewX(-15deg);
+      transition: all 0.9s ease;
+    }
+  }
+}
+
+.buttons-wrapper-1 {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+
+.k{
+ height: 350px;
+}
+
+.glass{
+	margin-left: -50px;
+}
+
+
+.img-wrapper {  
+  width: 200px;
+  height: 300px;
+  overflow: hidden; 
+}
+
+.inner-img {
+  transition: 0.3s;
+  margin-left: -50px;
+}
+
+.inner-img:hover {
+  transform: scale(1.1);
+}
+
+.inner-img-1{
+  transition: 0.3s;
+  margin-left: -90px;
+ z-index: -1;
+}
+
+ .slik{
+ 	height: 350;
+ }
+
+.inner-img-1:hover {
+  transform: scale(1.1);
+}
+
+.nov{
+	position: absolute;
+	
+	z-index: 1;
+	background: #f94d1c;
+	width: 12%;
+	height: 20%;
+}
+/*Where here to share story & more news classes end*/
+
+/*maps section classes start*/
+ .info{
+ 	margin-top: -31.5%;
+ 	margin-left: 65%;
+ 	z-index: 1;
+ }
+
+ .triangle-left {
+	margin-top: -27.7rem;
+	margin-left: -49px;
+	width: 0;
+	height: 30;
+	border-top: 25px solid transparent;
+	border-right: 50px solid #555;
+}
+
+
+
+.envel{
+	color: #f94d1c;
+}
+
+.ball:hover{
+	animation: bounce 0.8s infinite;
+}
+
+@keyframes bounce{
+	10%{
+	  margin-top: -10px;
+	}
+}
+
+.ph-img{
+	margin-left: -10rem;
+}
+
+/*maps section classes end*/
+
+/*footer classes start*/
+footer{
+	background-image: url(images/p-bg-footer.png);
+	height: 450;
+	background-attachment: fixed;
+}
+
+.footer-1{
+ background: #000;
+ height: 450;
+ width: 100%;
+ opacity: 0.82;
+ background-attachment: fixed;
+}
+
+.mobile{
+	margin-top: 30px;
+}
+
+.open{
+	color: #f94d1c;
+}
+
+.gird-footer{
+	margin-top: -20%;
+}
+
+.cms{
+	margin-top: -20%;
+	margin-left: 28rem;
+}
+
+.newes{
+	margin-top: -26%;
+	margin-left: 50rem;
+}
+
+.tele{
+	padding: 14px;
+	background: #f94d1c;
+}
+
+.fb:hover{
+	transition: 1s;
+	margin-top: -10px;
+	cursor: pointer;
+}
+
+.ball{
+	margin-left: 8rem;
+}
+
+.ball-2{
+margin-left: 4rem;	
+}
+
+.ball-3{
+	margin-left: 12rem;
+}
+
+
+.home:hover{
+	cursor: pointer;
+	color: #fff;
+	margin-left: 10px;
+ transform: scaleX(1);
+ text-decoration: underline;
+ transition: 0.25s ;
+}
+
+
+.cursor{
+	position: fixed;
+	width: 30px;
+	height: 30px;
+  border-radius: 50%;
+  border: 1px solid #f94d1c;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transform: translate(-50%,-50%);
+  transition: .15s;
+}
+
+.cursor2{
+	position: fixed;
+	width: 8px;
+	height: 8px;
+  background: #f94d1c;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transform: translate(-50%,-50%);
+  transition: .30s;
+}
+
+/*footer classes end*/
